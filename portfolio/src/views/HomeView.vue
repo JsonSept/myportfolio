@@ -9,5 +9,8 @@ export default {
 }
 </script>
 <style>
-  
+  h1 {
+   padding-top: 6%;
+    color:white;
+  }
 </style>

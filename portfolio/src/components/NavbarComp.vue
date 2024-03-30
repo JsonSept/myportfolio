@@ -6,6 +6,7 @@
     <router-link class="a" to="/about">About</router-link> |
     <router-link class="a" to="/portfolio">Portfolio</router-link> |
     <router-link class="a" to="/projects">Projects</router-link> |
+    <router-link class="a" to="/reviews">Reviews</router-link> |
     <router-link class="a" to="/contact">Contact</router-link> 
   </nav>
     </div>
@@ -77,7 +78,8 @@ export default {
     }
     
     nav .a:hover{
-        background-color: rgba(0, 0, 0, 0.5); 
+        color:aqua;
+        /* background-color: rgba(65, 63, 63, 0.5); 
         box-shadow:grey 3px 2px 0;
         border-radius: 10px 0px 10px 0px;
         color: silver;
@@ -85,6 +87,6 @@ export default {
         border-top: .2px solid white;
         border-left: .2px solid grey;
         border-bottom: 2px silver;
-        border-bottom:1px solid rgba(255, 255, 255, .2);
+        border-bottom:1px solid rgba(255, 255, 255, .2); */
     }
 </style>
