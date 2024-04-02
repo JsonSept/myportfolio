@@ -4,9 +4,9 @@
         <nav> 
     <router-link class="a" to="/">Home</router-link> |
     <router-link class="a" to="/about">About</router-link> |
-    <router-link class="a" to="/portfolio">Portfolio</router-link> |
+    <router-link class="a" to="/portfolio">Resume</router-link> |
     <router-link class="a" to="/projects">Projects</router-link> |
-    <router-link class="a" to="/reviews">Reviews</router-link> |
+    <router-link class="a" to="/testimonials">Testimonials</router-link> |
     <router-link class="a" to="/contact">Contact</router-link> 
   </nav>
     </div>
