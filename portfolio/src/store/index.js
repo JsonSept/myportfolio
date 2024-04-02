@@ -16,7 +16,7 @@ export default createStore({
   actions: {
     fetchData(context) {
       // axios.get("https://jsonsept.github.io/vueportfolio/")
-      axios.get(" https://jsonsept.github.io/myportfolio/")
+      axios.get("https://jsonsept.github.io/mydata/data/")
         .then(res => {
           let payload = res.data
           console.log(payload);
