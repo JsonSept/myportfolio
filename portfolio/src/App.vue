@@ -30,6 +30,7 @@ body::before {
     background: linear-gradient(#f00, #f0f);
     clip-path:circle(30% at right 70%);
     box-shadow: #fefeff 2px 2px 2px;
+    z-index: -5;
 }
 
 body::after {
@@ -41,6 +42,7 @@ body::after {
     height: 100%;
     background: linear-gradient(#2196f3, #e91e63);
     clip-path:circle(20% at 10% 10%);
+    z-index: -5;
 }
 
 nav a.router-link-exact-active {
@@ -55,6 +57,7 @@ nav a.router-link-exact-active {
         border-bottom: 2px silver;
         border-bottom:1px solid rgba(255, 255, 255, .2);
         transition: transform .6s;
+        
 }
 nav a.router-link-exact-active:hover {
   transform: scale(0.2); 

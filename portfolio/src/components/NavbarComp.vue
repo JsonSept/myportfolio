@@ -1,10 +1,10 @@
 <template>
     <div class="header">
-    <router-link to="/" class="logo">Logo</router-link>
+    <router-link to="/" class="logo">Jason September</router-link>
         <nav> 
     <router-link class="a" to="/">Home</router-link> |
     <router-link class="a" to="/about">About</router-link> |
-    <router-link class="a" to="/portfolio">Resume</router-link> |
+    <router-link class="a" to="/portfolio">Experience</router-link> |
     <router-link class="a" to="/projects">Projects</router-link> |
     <router-link class="a" to="/testimonials">Testimonials</router-link> |
     <router-link class="a" to="/contact">Contact</router-link> 
@@ -17,6 +17,7 @@ export default {
 }
 </script>
 <style>
+
     * {
         margin: 0;
         padding:0;
@@ -33,6 +34,7 @@ export default {
 
     .header {
         position: fixed;
+        z-index: 9999;
         top:0;
         left:0;
         width: 100%;

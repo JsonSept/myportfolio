@@ -1,5 +1,6 @@
 <template>
     <div>
+        <h1 class="pro">My Projects</h1>
         <div class="container">
         <div class="card">
             <div class="content">
@@ -170,6 +171,11 @@ body::after {
     background: linear-gradient(#2196f3, #e91e63);
     clip-path:circle(20% at 10% 10%);
 } */
+.pro {
+    color: #fff;
+    padding-top: 20%;
+    
+}
 img {
     height: 150px;
     width:180;

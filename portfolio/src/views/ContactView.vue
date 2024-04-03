@@ -38,7 +38,7 @@
 </label><br>
 <textarea name="message"></textarea><br>
   <!-- your other form fields go here -->
-  <button type="submit">Send</button>
+  <button class="send" type="submit">Send</button>
 </form>
 </div>
 </div>
@@ -54,15 +54,25 @@ export default {
 }
 </script>
 <style>
-.cont1 {
-
+.send {
+    border-radius: 7px;
+    padding: 4px;
 }
+.send:hover {
+    box-shadow: rgb(79, 78, 78) 1px 0px 0px 1px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+/* .cont1 {
+
+} */
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr; /* Equal columns */
   /* gap: 20px;  */
-  height: 80vh;
-  padding-top: 0;
+  height: 70vh;
+  /* padding-top: 0; */
+  padding-bottom: 2%;
  
 }
 
@@ -77,9 +87,11 @@ export default {
     border-radius: 10px;
 }
 .block1 {
-color:black;
+color:white;
 display: grid;
-background-color: aqua;
+/* background-color: aqua; */
+backdrop-filter: blur(14px); 
+background-color: rgba(255, 255, 255, 0.3); 
 /* display: flex; */
 }
     .block2 {
@@ -93,7 +105,10 @@ background-color: aqua;
         border-radius: 5px;
     }
     textarea {
-        height :50px;
+        height :100px;
         border-radius: 15px;
+    }
+    input {
+        height : 40px;
     }
 </style>
