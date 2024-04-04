@@ -3,6 +3,9 @@ import App from './App.vue'
 import './registerServiceWorker'
 import router from './router'
 import store from './store'
+import '../public/particles.js'
+// import '../public/app.js'
+
 // import 'bootstrap/dist/css/bootstrap.min.css'
 // import 'bootstrap'
 

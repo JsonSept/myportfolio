@@ -211,7 +211,7 @@ img {
 .container .card .content {
     padding: 20px;
     text-align: center;
-    opacity: 0;
+    /* opacity: 0; */
     transition: 0.5s;
 }
 .container .card:hover .content {

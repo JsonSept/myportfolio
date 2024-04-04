@@ -1,7 +1,9 @@
 <template>
   <navbar-comp/>
   <router-view/>
+  
 </template>
+
 
 <style>
 
@@ -10,9 +12,16 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+#particles-js {
+text-align: center;
+          width:2000px;
+          height: 100vh;
+           background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+      }
 body {
+  height: 100px;
     display:flex ;
     justify-content: center;
     align-items: center;
@@ -31,6 +40,7 @@ body::before {
     clip-path:circle(30% at right 70%);
     box-shadow: #fefeff 2px 2px 2px;
     z-index: -5;
+    float: left;
 }
 
 body::after {
@@ -43,6 +53,8 @@ body::after {
     background: linear-gradient(#2196f3, #e91e63);
     clip-path:circle(20% at 10% 10%);
     z-index: -5;
+    float: left;
+    transform: rotate3d(2, 4, 1, 4deg);
 }
 
 nav a.router-link-exact-active {
@@ -64,6 +76,8 @@ nav a.router-link-exact-active:hover {
 }
 </style>
 <script>
+import './assets/particles.js'
+// import './assets/app.js'
 import NavbarComp from './components/NavbarComp.vue'
 // import VanillaTilt from 'vanilla-tilt'
 export default {

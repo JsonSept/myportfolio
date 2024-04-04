@@ -1,41 +1,10 @@
 <template>
-  <!-- <iframe src='https://my.spline.design/deeosocialavatar-3c03c46fbca4a07e7a3f12826f9e1b09/' frameborder='30' width='100%' height='100%'></iframe> -->
-<!-- 
-    <body>
-      <div class="textContainer">
- <div class="waviy">
-   <span style="--i:1">HI</span>
-    <span style="--i:2">I</span> 
-  </div>
+  <img src="" alt="">
   
-  <div class="waviy">
-    <span style="--i:3">MY</span>
-    <span style="--i:4">Y</span> 
-      </div>
-
-      <div class="waviy">
-        <span style="--i:5">NAME</span>
-   <span style="--i:6">A</span>
-   <span style="--i:7">M</span>
-   <span style="--i:8">E </span><br> 
-      </div>
-
-      <div class="waviy">
-        <span style="--i:9">IS</span>
-   <span style="--i:10">S </span><br> 
-
-      </div>
-<br>
-      <div class="waviy">
-   <span style="--i:11">JASON</span>
-
-
-      </div>
-      </div>
-      
-</body> -->
+  
+  <div id="particles-js">
 <section>
-        <img src="../assets/1.png" data-speed="-5" class="layer" alt="">
+        <!-- <img src="../assets/1.png" data-speed="-5" class="layer" alt="">
         <img src="../assets/2.png" data-speed="5" class="layer" alt="">
         <img src="../assets/3.png" data-speed="2" class="layer" alt="">
         <img src="../assets/4.png" data-speed="6" class="layer" alt="">
@@ -46,10 +15,17 @@
         <img src="../assets/9.png" data-speed="6" class="layer" alt="">
         <img src="../assets/10.png" data-speed="-7" class="layer" alt="">
         <img src="../assets/11.png" data-speed="-5" class="layer" alt="">
-        <img src="../assets/12.png" data-speed="5" class="layer" alt="">
-        <h2 class="layer" data-speed="2">Hi My Name Is Jason</h2>
-    </section>
+        <img src="../assets/12.png" data-speed="5" class="layer" alt=""> -->
+        
+          <h2 class="layer" data-speed="2">Hi My Name Is Jason</h2>
+       
+        
+        <h3></h3>
+      </section>
+    </div>
 </template>
+<!-- <script src="particles.js"></script>
+    <script src="app.js"></script> -->
 <script>
 document.addEventListener("mousemove", parallax);
 function parallax(e){
@@ -66,7 +42,7 @@ export default {
   
 }
 </script>
-<style>
+<style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
 * {
@@ -74,14 +50,28 @@ export default {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 }
+/* #particles-js {
+  text-align: center;
+            width:2000px;
+            height: 100vh;
+             background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+        } */
+        /* h2 {
+            position: absolute;
+            top: 50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+            font-size: 80px;
+        } */
 body {
     background: #111;
 }
 
 section {
     position: relative;
-    width:125%;
+    width:200%;
     height: 100vh;
     overflow: hidden;
     display: flex;
@@ -102,7 +92,13 @@ section img {
 section h2 {
     position: relative;
     color: #fff;
-    font-size: 6em;
+    font-size: 4em;
+    margin-right: 45%;
+    /* position: absolute;
+          top: 50%;
+          left:50%;
+          transform: translate(-50%, -50%); */
+          /* font-size: 80px; */
 }
 /* iframe {
   text-align: center;

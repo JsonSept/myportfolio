@@ -1,175 +1,49 @@
 <template>
-
+<div class="container">
+  <h1>Education</h1><br>
   <div class="cardsExp">
-    <h1>Education</h1>
     <div class="timeline-block">
       <h1>Life Choices Coding Academy</h1>
       <p>Web Development, UI/UX & Software Engineering</p>
-      <p>2023 - Present</p>
-    </div>
-    <div class="timeline-block">
+      <p>2023 - Present</p><br>
+
       <h1>Forest Heights High School</h1>
       <p>Matric</p>
       <p>2012 - 2016</p>
     </div>
+    <!-- <div class="timeline-block"><br>
+      <h1>Forest Heights High School</h1>
+      <p>Matric</p>
+      <p>2012 - 2016</p>
+    </div> -->
 
   </div>
+
+  <h1>Work Experiences</h1>
   <div class="cardsExp">
-    <h1>Work Experiences</h1>
     <div class="timeline-block">
       <h1>Life Choices Studio Intern</h1>
       <p>During my time as an intern in LCS as a web Developer I got the chance to work in a team and I obtained soft skills like team work,and comminication skills which enabled me to be more resilient, and utilized my time managment effectively.</p>
-      <p>2024 - Present</p>
+      <p>2024 - Present</p><br>
       <!-- <router-link to="/projects"><button>Go to my projects</button></router-link> -->
-    </div>
-    <div class="timeline-block">
       <h1>Place: Flint Group</h1>
       <h2>Title:Colour Matcher</h2>
       <p>Matching and mixing paste ink colours accurately according to a prototype design provided from a customer and or printing company.</p>
-      <p>2020 - 2023</p>
-    </div>
-    <div class="timeline-block">
-        <h1>Place: Meatrite</h1>
+      <p>2020 - 2023</p><br>
+    
+      <h1>Place: Meatrite</h1>
         <h2>Title:Cashier</h2>
         <p>Worked as cashier and all arounder</p>
         <p>2018 - 2019</p>
     </div>
-  </div>
-  <!-- <body>
-    
-  
-  <div class="wrapper mt-3">
-      <div class="intro">
-          <div class="profile">
-              <div class="photo">
-                <img src="https://i.ibb.co/qDvwc9j/IMG-20231101-161112.jpg" alt="">
-              </div>
-              <div class="bio">
-                <h1 id="resume-name"  class="name">Jason September</h1>
-                <p id="resume-title" class="profession">Full-stack Developer</p>
-              </div>
-          </div>
-          <div class="intro-section contact">
-              <h1 class="title">Contact</h1>
-          <div class="info-section">
-             <i style = "color: #F59105;" class="fas fa-phone"></i>
-             <span style="color: black; font-weight: bold; font-size: 15px">Phone: 067 066 0615</span>
-          </div>
-          <div class="info-section">
-        <i style = "color: #F59105;" class="fas fa-map-marker-alt"></i>
-        <span style="color: black; font-weight: bold; font-size: 15px">Address: 49 Dune Street Condor Park Eersteriver</span>
-      </div>
-      <div class="info-section">
-        <i style = "color: #F59105;" class="fas fa-paper-plane"></i>
-        <span style="color: black; font-weight: bold; font-size: 15px;">Email: jasonseptember.za@gmail.com</span>
-      </div>
-          </div>
-          <div class="intro-section follow">
-      <h1 class="title">Socials</h1>
-      <div class="info-section link">
-        <div id = "linkedin-div">
-        <a href="https://www.linkedin.com/in/jason-september-431380270/" target="_blank"><i class="fa-brands fa-linkedin fa-xl" style="color: #F59105; cursor: pointer;">
-        <span class="mx-2" style="color: black; font-weight: bold; font-size: 15px;">Linkdin</span></i></a>
-        </div>
-        <div id = "github-div">
-        <a href="https://github.com/JsonSept" target="_blank"><i class="fa-brands fa-github fa-xl" style="color: #F59105; cursor: pointer;">
-        <span class="mx-2" style="color: black; font-weight: bold; font-size: 15px;">Github</span></i></a>
-        </div>
-        <div id = "whatsapp-div">
-        <a href="https://wa.me/+27670660615" target="_blank"><i class="fa-brands fa-whatsapp fa-xl" style="color: #F59105; cursor: pointer;">
-        <span class="mx-2" style=" color: black; font-weight: bold; font-size: 15px;">Whatsapp</span></i></a>
-        </div>
-      </div>
+    <!-- <div class="timeline-block">
+      
     </div>
-      </div>
-      <div class="detail">
-          <div class="detail-section edu">
-              <div class="detail-title">
-                  <div class="title-icon">
-                    <i class="fas fa-user-graduate"></i>
-                  </div>
-                  <span>Education</span>
-              </div>
-              <div class="detail-content">
-                  <div class="timeline-block">
-                    <h1>Life Choices Coding Academy</h1>
-                    <p>Web Development, UI/UX & Software Engineering</p>
-                    <p>2023 - Present</p>
-                  </div>
-                  <div class="timeline-block">
-                    <h1>Forest Heights High School</h1>
-                    <p>Matric</p>
-                    <p>2012 - 2016</p>
-                  </div>
-              </div>
-              <div class="detail-section edu">
-                  <div class="detail-title">
-                  <div class="title-icon">
-                      <i class="fas fa-user-graduate"></i>
-                  </div>
-                      <span>Work experience</span>
-                  </div>
-                  <div class="detail-content">
-                      <div class="timeline-block">
-                        <h1>Life Choices Studio Intern</h1>
-                        <p>During my time as an intern in LCS as a web Developer I got the chance to work in a team and I obtained soft skills like team work,and comminication skills which enabled me to be more resilient, and utilized my time managment effectively.</p>
-                        <p>2024 - Present</p>
-                        <router-link to="/projects"><button>Go to my projects</button></router-link>
-                      </div>
-                  <div class="timeline-block">
-                    <h1>Place: Flint Group</h1>
-                    <h2>Title:Colour Matcher</h2>
-                    <p>Matching and mixing paste ink colours accurately according to a prototype design provided from a customer and or printing company.</p>
-                    <p>2020 - 2023</p>
-                  </div>
-                  <div class="timeline-block">
-                      <h1>Place: Meatrite</h1>
-                      <h2>Title:Cashier</h2>
-                      <p>Worked as cashier and all arounder</p>
-                      <p>2018 - 2019</p>
-                  </div>
-               </div>
-              </div>
-              <div class="detail-section pg-skill">
-                  <div class="detail-title">
-                  <div class="title-icon">
-                    <i class="fas fa-laptop-code"></i>
-                  </div>
-                  <span>Programming skills</span>
-                  </div>
-                  <div class="detail-content">
-        <ul class="pg-list">
-          <li>
-            <span>Scratch</span>
-          </li>
-          <li>
-            <span>HTML5</span>
-          </li>
-          <li>
-            <span>CSS3</span>
-          </li>
-          <li>
-            <span>Javascript(ES6)</span>
-          </li>
-          <li>
-            <span>Bootstrap</span>
-          </li>
-          <li>
-            <span>VueJS</span>
-          </li>
-          <li>
-            <span>MySQL</span>
-          </li>
-          <li>
-            <span>NodeJS</span>
-          </li>
-              </ul>
-              </div>
-          </div>
-      </div>
+    <div class="timeline-block"> -->
+       
+    <!-- </div> -->
   </div>
-  </div>
-</body> -->
+</div>
 </template>
 <script>
 export default {
@@ -177,12 +51,23 @@ export default {
 }
 </script>
 <style scoped>
+body {
+
+}
+.container {
+  padding: 7%;
+}
 .timeline-block {
   border: solid white 2px;
   /* font-size: 10px; */
   width:40%;
   box-shadow: rgb(5, 248, 220) 2px 2px 2px;
   background-color: rgb(73, 74, 74);
+  text-align: center;
+  border-radius: 7px;
+  display: grid;
+  text-align: center;
+
 }
 p {
   font-size: 20;
@@ -192,8 +77,12 @@ color: rgb(4, 230, 251);
 }
 .cardsExp {
   z-index: 1000;
-  padding-top: 10%;
+  /* padding-top: 5%; */
   color:white;
+  text-align: center;
+  display: flex;
+  
+  justify-content: center;
 }
 
 /* body{

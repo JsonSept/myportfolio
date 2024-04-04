@@ -6,7 +6,7 @@
     <router-link class="a" to="/about">About</router-link> |
     <router-link class="a" to="/portfolio">Experience</router-link> |
     <router-link class="a" to="/projects">Projects</router-link> |
-    <router-link class="a" to="/testimonials">Testimonials</router-link> |
+    <router-link class="a" to="/testimonials">References</router-link> |
     <router-link class="a" to="/contact">Contact</router-link> 
   </nav>
     </div>
@@ -43,7 +43,7 @@ export default {
         display : flex;
         justify-content: space-between;
         align-items: center;
-        backdrop-filter: blur(10px);
+        backdrop-filter: blur(13px);
         border-bottom: 2px solid rgba(255, 255, 255, .2);
     }
 
@@ -74,9 +74,8 @@ export default {
         color: white;
         font-size: 18px;
         text-decoration: none;
-        margin-left: 35px;
         transition: .3s;
-        padding:2px;
+        padding:5px;
     }
     
     nav .a:hover{

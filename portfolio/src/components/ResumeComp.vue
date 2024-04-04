@@ -176,7 +176,7 @@
       font-weight: bold;
   }
   .wrapper {
-    padding-top: 8%;
+    padding-top: 10%;
       margin: 0 auto;
       max-width: 70rem;
       background-color: #4d4d4d;
