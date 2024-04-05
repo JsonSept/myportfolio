@@ -5,7 +5,7 @@
         <div class="card">
             <div class="content">
                 <h2>01</h2>
-                <img src="https://i.postimg.cc/Y2QGKLXs/Screenshot-2023-11-01-113304.png">
+                <img src="https://i.postimg.cc/MpG4jZww/Screenshot-2024-04-05-150844.png">
                 <h3>Sneaker Shop</h3>
                 <p>A sneaker shop website made with HTML and CSS</p>
                 <button>
@@ -43,7 +43,7 @@
         <div class="card">
             <div class="content">
                 <h2>03</h2>
-                <img src="https://i.postimg.cc/HncWWRHm/Screenshot-2023-11-01-115543.png">
+                <img src="https://i.postimg.cc/TYjQHSVp/Screenshot-2024-04-05-151117.png" style="width: 230px;">
                 <h3>Keyboard</h3>
                 <p>Made with HTML, CSS and JavaScript</p>
                 <button>
@@ -173,7 +173,7 @@ body::after {
 } */
 .pro {
     color: #fff;
-    padding-top: 20%;
+    padding-top: 50%;
     
 }
 img {

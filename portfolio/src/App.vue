@@ -1,7 +1,7 @@
 <template>
   <navbar-comp/>
   <router-view/>
-  
+ 
 </template>
 
 
@@ -14,12 +14,7 @@
     font-family: 'Poppins',sans-serif;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-#particles-js {
-text-align: center;
-          width:2000px;
-          height: 100vh;
-           background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
-      }
+
 body {
   height: 100px;
     display:flex ;
@@ -73,6 +68,13 @@ nav a.router-link-exact-active {
 }
 nav a.router-link-exact-active:hover {
   transform: scale(0.2); 
+}
+#light {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50px; /* Makes it a circle */
+    position: fixed;
 }
 </style>
 <script>

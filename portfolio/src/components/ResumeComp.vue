@@ -365,7 +365,7 @@
       content: '';
       width: 15px;
       height: 15px;
-      background-color: white;
+      /* background-color: black; */
       border: 3px solid black;
       border-radius: 50%;
       left: -10px;

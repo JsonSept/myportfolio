@@ -5,7 +5,7 @@
         <div class="card">
             <div class="content">
                 <h2>01</h2>
-                <img src="https://cdn-images.imagevenue.com/f2/32/25/ME17GDYL_o.jpg">
+                <img src="https://i.ibb.co/pPsRxXV/20231022-161301-removebg-preview.png">
                 <h3>Taryn-lee Walbrugh</h3>
                 <p>Jason is very kind-hearted and compassionate,He enjoy what he does and that speaks wonders. He never backs down from hardships or struggles that's a quality that I admire. Jason takes pride in his work and it truly shows</p>
             </div>
@@ -13,7 +13,7 @@
         <div class="card">
             <div class="content">
                 <h2>02</h2>
-                <img src="https://cdn-images.imagevenue.com/df/5c/ca/ME17G550_o.jpg">
+                <img src="https://i.ibb.co/Ltd9mc9/20231009-104509-removebg-preview.png">
                 <h3>Nathalie Willemse</h3>
                 <p>Jason is a very soft-spoken individual and always helps where he can. He is very humble and always hope for the best. He is very knowledgeable and is quite generous with bestowing that with others.</p>
                 
@@ -22,7 +22,7 @@
         <div class="card">
             <div class="content">
                 <h2>03</h2>
-                <img src="https://cdn-images.imagevenue.com/3e/65/47/ME17GDZW_o.jpg">
+                <img src="https://i.ibb.co/ZXDnSb1/download-image-1712323454869-removebg-preview.png">
                 <h3>Matthew Swain</h3>
                 <p>Jason September is an outstanding individual, whether it be his work or him as a person . Always pleasant to work with, always promotes positivity, great communicative skills and has unmatched enthusiasm and determination. He is the ideal work colleague but mainly the the best companion and friend.</p>
             </div>
@@ -30,7 +30,7 @@
         <div class="card">
             <div class="content">
                 <h2>04</h2>
-                <img src="https://cdn-images.imagevenue.com/9b/a3/37/ME17GE0W_o.jpg">
+                <img src="https://i.ibb.co/x3V701W/20231009-140315-removebg-preview.png">
                 <h3>Darren Viljoen</h3>
                 <p>Jason September is a naturally skilled developer who has a bright future in this industry. His hard work and his willingness to assist others already makes him such a talented developer. Once you see his projects or designs, its only then that you realize what an incredibly high work ethic Jason has.</p>
                 
@@ -39,7 +39,7 @@
         <div class="card">
             <div class="content">
                 <h2>05</h2>
-                <img src="https://i.ibb.co/Lr7GW7Q/20231103-075902.jpg">
+                <img src="https://i.ibb.co/dQmj2Qp/img1-removebg-preview.png">
                 <h3>Brandon Roulstone</h3>
                 <p>Jason is an exceptional student who succeeds at anything  what he puts his mind to, his approach to complex logic and his team spirit is unique and whereas he will make him become one of the most important assets to the work place and to people he collaborates with together with this he is also hardworking and never gives up on a challenge.</p>
             </div>
@@ -74,7 +74,7 @@ export default {
 <style scope>
 .pro {
     color: #fff;
-    padding-top: 20%;
+    padding-top: 50%;
     
 }
 img {

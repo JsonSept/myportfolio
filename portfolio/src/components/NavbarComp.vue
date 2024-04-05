@@ -39,7 +39,7 @@ export default {
         left:0;
         width: 100%;
         padding: 20px 100px;
-        background: rgba(255 , 255, 255, .1);
+        background: rgba(0, 0, 0, 0.1);
         display : flex;
         justify-content: space-between;
         align-items: center;
@@ -47,7 +47,7 @@ export default {
         border-bottom: 2px solid rgba(255, 255, 255, .2);
     }
 
-    .header::before {
+    /* .header::before {
         content: '';
         position: absolute;
         top:0;
@@ -56,11 +56,11 @@ export default {
         height: 100%;
         background: linear-gradient(90deg, transparent, rgba(255,255,255, .4), transparent);
     transition: .5s;
-    }
+    } */
 
-    .header:hover::before {
+    /* .header:hover::before {
         left: 100%;
-    }
+    } */
 
     .logo {
         color: #fff;
@@ -79,15 +79,25 @@ export default {
     }
     
     nav .a:hover{
-        color:aqua;
-        /* background-color: rgba(65, 63, 63, 0.5); 
-        box-shadow:grey 3px 2px 0;
-        border-radius: 10px 0px 10px 0px;
-        color: silver;
-        border:1px;
-        border-top: .2px solid white;
-        border-left: .2px solid grey;
-        border-bottom: 2px silver;
-        border-bottom:1px solid rgba(255, 255, 255, .2); */
+        color:rgb(5, 188, 188);
+        text-decoration:underline;
+        
     }
+    @media screen and (max-width: 300px) {
+  nav {
+    height : 20px;
+  }
+  .logo {
+    left:5%;
+    font-size: 13px;
+    text-align: left;
+    
+  }
+  nav .a {
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+  }
+  
+}
 </style>
