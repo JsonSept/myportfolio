@@ -41,6 +41,12 @@ button:hover {
   background: linear-gradient(#2196f3, #e91e63);
   
  }
+
+ .layer {
+    -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: rgb(0, 0, 0);
+  text-shadow: 4px 4px 4px black;
+ }
 * {
     margin: 0;
     padding: 0;
@@ -87,5 +93,9 @@ h3 {
     height: 100px;
     background-color: yellow;
     border-radius: 50px; /* Makes it a circle */
+    -webkit-text-stroke-width: 1px;
+            /* -webkit-text-stroke-color: rgb(0, 0, 0); */
+   /* border: 3px #f5f3f3; */
+   box-shadow: 3px 0 6px 5px #090606;
 }
 </style>

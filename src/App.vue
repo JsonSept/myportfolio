@@ -22,6 +22,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background: #161623;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add the shadow here */
 }
 
 body::before {
@@ -33,9 +34,13 @@ body::before {
     height: 100%;
     background: linear-gradient(#f00, #f0f);
     clip-path:circle(30% at right 70%);
-    box-shadow: #fefeff 2px 2px 2px;
+    /* box-shadow: #fefeff 2px 2px 2px; */
     z-index: -5;
     float: left;
+    -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: rgb(0, 0, 0);
+   border: 3px #000000;
+   box-shadow: 3px 0 6px 5px #090606;
 }
 
 body::after {
@@ -50,6 +55,7 @@ body::after {
     z-index: -5;
     float: left;
     transform: rotate3d(2, 4, 1, 4deg);
+
 }
 
 nav a.router-link-exact-active {

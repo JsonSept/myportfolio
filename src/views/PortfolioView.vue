@@ -1,7 +1,7 @@
 <template>
 <div class="container">
     <div class="education">
-  <h1>Education</h1><br>
+  <h1>Education</h1>
   <div class="cardsExp">
     <div class="timeline-block">
       <h1>Life Choices Coding Academy</h1>
@@ -14,7 +14,8 @@
     </div>
   </div>
 </div>
-
+<br>
+<hr>
 <div class="exp">
   <h1>Work Experiences</h1>
   <div class="cardsExp">
@@ -45,37 +46,37 @@
         <img src="https://i.ibb.co/CQvDTGJ/html5-icon-13.png" alt="">
         <h2>HTML</h2>
     </div>
-</div>
+</div><br>
 <div class="cards">
     <div class="content">
         <img src="https://i.ibb.co/sbzPW35/csslogo.png" style="height:87px; margin-top:8px" alt="">
         <h2>CSS</h2>
     </div>
-</div>
+</div><br>
 <div class="cards">
     <div class="content">
         <img src="https://i.ibb.co/7yGrkRJ/bootstrap-logo.png" alt="">
         <h2>Bootstrap</h2>
     </div>
-</div>
+</div><br>
 <div class="cards">
     <div class="content">
         <img src="https://i.ibb.co/vHm0Lm3/R.png" alt="">
         <h2>Javascript</h2>
     </div>
-</div>
+</div><br>
 <div class="cards">
     <div class="content">
         <img src="https://i.ibb.co/9TWz1qp/vuejs-logo-17-D586-B587-seeklogo-com.png" style="height:85px; margin-top:9px" alt="">
         <h2>Vue.JS</h2>
     </div>
-</div>
+</div><br>
 <div class="cards">
     <div class="content">
         <img src="https://i.ibb.co/87Dr9nz/mysql-logo-png-transparent-768x532.png" alt="">
         <h2>MySQL</h2>
     </div>
-</div>
+</div><br>
 <div class="cards">
     <div class="content">
         <img src="https://i.postimg.cc/N0t6dxj7/nodejs.png" alt="">
@@ -141,10 +142,13 @@ export default {
   #nextBtn {
     right: 10px;
   } */
-  
+  .cards {
+    text-align: center;
+  }
 .container {
   padding: 7%;
-  margin-top: 30%;
+  margin-top: 40%;
+  text-align: center;
   
 }
 .timeline-block {
@@ -164,7 +168,10 @@ p {
   font-size: 20;
 }
 h1 {
-color: rgb(4, 230, 251);
+color: rgb(4, 103, 251);
+-webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 2px black;
 }
 .cardsExp {
   z-index: 1000;
@@ -182,5 +189,7 @@ img {
     display: flex;
     justify-content: center;
     padding: 2%;
+    color: antiquewhite;
+    justify-content: space-around;
 }
 </style>

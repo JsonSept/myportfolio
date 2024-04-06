@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="all">
         <h1 class="pro">My Projects</h1>
         <div class="container">
         <div class="card">
@@ -171,6 +171,9 @@ body::after {
     background: linear-gradient(#2196f3, #e91e63);
     clip-path:circle(20% at 10% 10%);
 } */
+.all {
+    margin-top: 10%;
+}
 .pro {
     color: #fff;
     padding-top: 50%;
@@ -253,7 +256,7 @@ img {
 }
 
 button {
-    background-color: black;
+    /* background-color: black; */
     color:white;
 }
 

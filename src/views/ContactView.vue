@@ -73,17 +73,18 @@ export default {
   display: grid;
   grid-template-columns: 1fr 1fr; /* Equal columns */
   /* gap: 20px;  */
-  height: 70vh;
+  height: 80vh;
   /* padding-top: 0; */
-  padding-bottom: 2%;
+  padding-bottom: 4%;
   margin-bottom: 12%;
  
 }
 
 .block1 , .block2 {
     z-index:1;
+
     margin-top: 15%;
-    height: 100%;
+    height: 90%;
     padding:20px;
     display: flex;
     /* justify-content: center; */

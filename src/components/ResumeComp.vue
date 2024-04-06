@@ -13,20 +13,49 @@
                   <p id="resume-title" class="profession">Full-stack Developer</p>
                 </div>
             </div>
+
+            
+
             <div class="intro-section contact">
+                <div class="personalinfo">
+                <h1 class="title">Personal Info</h1>
+                <div class="info-section">
+               <i style = "color: #F59105;" class="fas fa-phone"></i>
+               <span style="color: black; font-weight: bold; font-size: 15px">Date Of Birth: 30/10/1998</span>
+            </div>
+            <div class="info-section">
+               <i style = "color: #F59105;" class="fas fa-phone"></i>
+               <span style="color: black; font-weight: bold; font-size: 15px">Marital Status: Single</span>
+            </div>
+            <div class="info-section">
+               <i style = "color: #F59105;" class="fas fa-phone"></i>
+               <span style="color: black; font-weight: bold; font-size: 15px">Nationality: South African</span>
+            </div>
+            <h1 class="title">Languages</h1>
+            <div class="info-section">
+               <i style = "color: #F59105;" class="fas fa-phone"></i>
+               <span style="color: black; font-weight: bold; font-size: 15px">Afrikaans</span>
+            </div>
+            <div class="info-section">
+               <i style = "color: #F59105;" class="fas fa-phone"></i>
+               <span style="color: black; font-weight: bold; font-size: 15px">English</span>
+            </div>
+            </div> 
                 <h1 class="title">Contact</h1>
             <div class="info-section">
                <i style = "color: #F59105;" class="fas fa-phone"></i>
                <span style="color: black; font-weight: bold; font-size: 15px">Phone: 067 066 0615</span>
             </div>
-            <div class="info-section">
-          <i style = "color: #F59105;" class="fas fa-map-marker-alt"></i>
-          <span style="color: black; font-weight: bold; font-size: 15px">Address: 49 Dune Street Condor Park Eersteriver</span>
-        </div>
+           
         <div class="info-section">
           <i style = "color: #F59105;" class="fas fa-paper-plane"></i>
           <span style="color: black; font-weight: bold; font-size: 15px;">Email: jasonseptember.za@gmail.com</span>
         </div>
+        <h1 class="title">Address</h1>
+        <div class="info-section">
+      <i style = "color: #F59105;" class="fas fa-map-marker-alt"></i>
+      <span style="color: black; font-weight: bold; font-size: 15px">Address: 49 Dune Street Condor Park Eersteriver</span>
+    </div>
             </div>
             <div class="intro-section follow">
         <h1 class="title">Socials</h1>
@@ -141,13 +170,19 @@
   }
   </script>
   <style scoped>
-  
+  button {
+    background: linear-gradient(#2196f3, #e91e63);
+  color: black;
+  padding: 5px;
+  border: none;
+  border-radius: 8px;
+}
   body{
   }
      #background{
       background-color: black;
       color: #F59105;
-      min-height: 140vh;
+      /* min-height: 10vh; */
   }
   :root {
       --pgbar-length: 100%;
@@ -176,7 +211,7 @@
       font-weight: bold;
   }
   .wrapper {
-    padding-top: 10%;
+    padding-top: 70%;
       margin: 0 auto;
       max-width: 70rem;
       background-color: #4d4d4d;
@@ -307,7 +342,7 @@
       padding-left: calc(1.5rem + 10px);
   }
   h1{
-      color: black  !important;
+      color: rgb(230, 229, 238)  !important;
       font-weight: bold !important;
   }
   .title-icon + span {
