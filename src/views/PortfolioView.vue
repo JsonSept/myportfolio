@@ -171,7 +171,7 @@ h1 {
 color: rgb(4, 103, 251);
 -webkit-text-stroke-width: 1px;
             -webkit-text-stroke-color: rgb(0, 0, 0);
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 2px 5px 10px black;
 }
 .cardsExp {
   z-index: 1000;
@@ -183,7 +183,7 @@ color: rgb(4, 103, 251);
   justify-content: center;
 }
 img {
-    height : 100px
+    height : 100px;
 }
 .skills {
     display: flex;
@@ -192,5 +192,8 @@ img {
     color: antiquewhite;
     justify-content: space-around;
     
+}
+h2 {
+  text-shadow: 2px 5px 10px black;
 }
 </style>
