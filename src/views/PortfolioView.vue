@@ -155,7 +155,7 @@ export default {
   border: solid white 2px;
   /* font-size: 10px; */
   width:40%;
-  box-shadow: rgb(60, 63, 63) 2px 2px 2px;
+  box-shadow: rgb(0, 0, 0) 2px 2px 40px;
   background-color: rgb(73, 74, 74);
   transition: box;
   text-align: center;
@@ -191,5 +191,6 @@ img {
     padding: 2%;
     color: antiquewhite;
     justify-content: space-around;
+    
 }
 </style>

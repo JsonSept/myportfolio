@@ -34,13 +34,14 @@ body::before {
     height: 100%;
     background: linear-gradient(#f00, #f0f);
     clip-path:circle(30% at right 70%);
-    /* box-shadow: #fefeff 2px 2px 2px; */
+    /* box-shadow: #fefeff 2px 5px 40px; */
     z-index: -5;
     float: left;
+    text-shadow: #000000 2px 5px 40px;;
     -webkit-text-stroke-width: 2px;
-            -webkit-text-stroke-color: rgb(0, 0, 0);
+            /* -webkit-text-stroke-color: rgb(0, 0, 0); */
    border: 3px #000000;
-   box-shadow: 3px 0 6px 5px #090606;
+   /* box-shadow: 3px 0 6px 5px #090606; */
 }
 
 body::after {

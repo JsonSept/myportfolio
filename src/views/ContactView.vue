@@ -44,6 +44,7 @@
   <button class="send" type="submit">Send</button>
 </form>
 </div>
+<div id="light"></div>
 </div>
 </template>
 <script>
@@ -90,6 +91,7 @@ export default {
     /* justify-content: center; */
     border: 2px solid rgb(0, 229, 255);
     border-radius: 10px;
+    box-shadow: #090606 2px 5px 40px;
 }
 .block1 {
 color:white;
@@ -116,4 +118,14 @@ background-color: rgba(255, 255, 255, 0.3);
     input {
         height : 40px;
     }
+    #light {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50px;
+    /* margin-bottom: 10%; */
+    z-index: -100;
+    -webkit-text-stroke-width: 1px;
+   box-shadow: 3px 0 6px 5px #090606;
+}
 </style>

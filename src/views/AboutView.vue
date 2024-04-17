@@ -23,6 +23,7 @@
  backdrop-filter: blur(5px);
   background-color: rgba(255, 255, 255, 0.2);
   outline: 0.3rem solid rgba(255, 255, 255, 0.3);
+  box-shadow: #090606 2px 5px 40px;
 }
 h2 {
   color: #e2dede;
@@ -49,13 +50,14 @@ h4 {
   height: 100vh;
   display: flex;
   justify-content: center;
-  
+  /* box-shadow: #090606 2px 5px 40px; */
  
   /* border: solid white 2px; */
  }
  .info {
   margin-left: 53%;
   /* margin-top: 40%; */
+  /* box-shadow: #090606 2px 5px 30px; */
  }
  .content {
   padding-top: 10%;

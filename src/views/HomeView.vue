@@ -27,11 +27,12 @@ export default {
 button {
   border-radius: 6px;
   border: none;
-  box-shadow: grey 2px 2px 2px;
+  box-shadow: rgb(0, 0, 0) 6px 5px 30px;
   color: #000000;
   padding: 4px;
   font-size:30px;
   cursor:pointer;
+  /* border-right: rgb(0, 0, 0) 7px; */
 }
 h3 {
   
@@ -92,10 +93,8 @@ h3 {
     width: 100px;
     height: 100px;
     background-color: yellow;
-    border-radius: 50px; /* Makes it a circle */
+    border-radius: 50px;
     -webkit-text-stroke-width: 1px;
-            /* -webkit-text-stroke-color: rgb(0, 0, 0); */
-   /* border: 3px #f5f3f3; */
-   box-shadow: 3px 0 6px 5px #090606;
+   box-shadow: 3px 0 7px #090606;
 }
 </style>
