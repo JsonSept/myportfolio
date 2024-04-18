@@ -63,7 +63,7 @@
 export default {
     mounted() {
     VanillaTilt.init(document.querySelectorAll(".card"),{
-            max:25,
+            max:20,
             speed:10,
             glare: true,
             "max-glare": 1,

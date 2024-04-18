@@ -35,7 +35,6 @@
             <button>
                 <a href="https://melodic-tanuki-6eed1b.netlify.app" target="_blank">
                         Netlify
-
                     </a>
                 </button>
         </div>
@@ -72,7 +71,6 @@
             <button>
                 <a href="https://dynamic-liger-9dc540.netlify.app" target="_blank">
                         Netlify
-
                     </a>
                 </button>
             </div>
@@ -134,50 +132,13 @@ export default {
 }
 </script>
 <style>
-/* 
-    * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
-}
-
-body {
-    display:flex ;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: #161623;
-}
-
-body::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(#f00, #f0f);
-    clip-path:circle(30% at right 70%);
-}
-
-body::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(#2196f3, #e91e63);
-    clip-path:circle(20% at 10% 10%);
-} */
 .all {
     margin-top: 10%;
 }
 .pro {
     color: #fff;
     padding-top: 50%;
-    
+    text-shadow: 10px 5px 10px black;
 }
 img {
     height: 150px;
@@ -199,7 +160,7 @@ img {
     width: 280px;
     height:400px;
     margin: 30px;
-    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    box-shadow: 20px 20px 90px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
     background: rgba(255, 255, 255, 0.1);
     overflow: hidden;
@@ -214,7 +175,6 @@ img {
 .container .card .content {
     padding: 20px;
     text-align: center;
-    /* opacity: 0; */
     transition: 0.5s;
 }
 .container .card:hover .content {
@@ -252,7 +212,7 @@ img {
     border-radius: 20px;
     text-decoration: none;
     font-weight: 500;
-    box-shadow: 0 5px 15 px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 15px 20px rgba(0, 0, 0, 0.2);
 }
 
 button {

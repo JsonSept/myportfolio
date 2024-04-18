@@ -34,9 +34,7 @@ button {
   cursor:pointer;
   /* border-right: rgb(0, 0, 0) 7px; */
 }
-h3 {
-  
-}
+
 button:hover {
 
   background: linear-gradient(#2196f3, #e91e63);

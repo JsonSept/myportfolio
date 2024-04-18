@@ -23,18 +23,16 @@
  backdrop-filter: blur(5px);
   background-color: rgba(255, 255, 255, 0.2);
   outline: 0.3rem solid rgba(255, 255, 255, 0.3);
-  box-shadow: #090606 2px 5px 40px;
+  box-shadow: #090606 2px 5px 70px;
 }
 h2 {
   color: #e2dede;
 }
 img {
-  /* height:70%; */
   margin-top: -100%;
   border: solid 4px rgb(209, 3, 209);
   backdrop-filter: blur(5px);
   background-color: rgba(255, 255, 255, 0.1);
-  /* margin-right: 10%; */
   z-index: -3;
   border-radius: 10px;
   outline: 0.3rem solid rgba(255, 255, 255, 0.3);
