@@ -112,6 +112,19 @@
                 </button>
             </div>
          </div>
+
+         <div class="card">
+            <div class="content">
+                <h2>07</h2>
+                <img src="https://i.ibb.co/9HxN7tJ/Screenshot-2024-05-03-144401.png">
+                <h3>Chowabite</h3>
+                <p>Presentation</p>
+                 
+                <button><object data="/src/assets/Chowabite.pdf" type="pdf">Open</object></button>
+
+            </div>
+        </div>
+
     </div>
     </div>
 </template>

@@ -27,6 +27,7 @@ body::before {
     background: linear-gradient(#f00, #f0f);
     box-shadow: 5px 20px 40px 15px black;
     content: '';
+    animation: MoveUpDown 4s linear infinite;
 }
 body::after {
   z-index: -5;
@@ -39,20 +40,8 @@ body::after {
     background: linear-gradient(#e91e63, #2196f3);
     box-shadow: 5px 20px 40px 5px black;
     content: '';
+    animation: MoveUpDown1 4s linear infinite;
 }
-/* .circle2 {
-  clip-path:circle(30% at right 70%);
-  top: 0;
-    left: 0;
-  position: fixed;
-  z-index: -200;
-  border-radius: 50%;
-  margin-bottom: 10%;
-  height: 300px;
-  width: 300px;
-  background: linear-gradient(#2196f3, #e91e63);
-  box-shadow: 5px 20px 40px 5px black;
-} */
 
 body {
   height: 100px;
@@ -64,19 +53,6 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-/* body::after {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(#2196f3, #e91e63);
-    clip-path:circle(20% at 10% 10%);
-    z-index: -5;
-    float: left;
-    transform: rotate3d(2, 4, 1, 4deg);
-} */
 
 nav a.router-link-exact-active {
   background-color: rgba(0, 0, 0, 0.5); 
@@ -91,6 +67,22 @@ nav a.router-link-exact-active {
         border-bottom:1px solid rgba(255, 255, 255, .2);
         transition: transform .6s;
         animation: glow 1s ease-in-out infinite alternate;
+}
+@keyframes MoveUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-80px);
+    }
+}
+@keyframes MoveUpDown1 {
+    0%, 100% {
+        transform: translateY(-80px);
+             }
+    50% {
+        transform: translateY(0);
+    }
 }
 @keyframes glow {
     from {
