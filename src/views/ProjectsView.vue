@@ -8,17 +8,16 @@
                 <img src="https://i.postimg.cc/MpG4jZww/Screenshot-2024-04-05-150844.png">
                 <h3>Sneaker Shop</h3>
                 <p>A sneaker shop website made with HTML and CSS</p>
-                <button>
                 <a href="https://github.com/JsonSept/week1.git" target="_blank">
+                    <button>
+                    </button>
                     Github
                 </a><br>
-            </button>
-            <button>
-                <a href="https://adorable-churros-ec7e34.netlify.app" target="_blank">
-                        Netlify
-
+            <a href="https://adorable-churros-ec7e34.netlify.app" target="_blank">
+                    <button>    
+                    </button>
+                    Netlify
                     </a>
-                </button>
             </div>
         </div>
         <div class="card">
@@ -27,16 +26,16 @@
                 <img src="https://i.ibb.co/TYdVNs3/Screenshot-2024-01-11-144312.png">
                 <h3>Calculator</h3>
                 <p>Made with HTML, CSS and JavaScript</p>
-                <button>
                 <a href="https://github.com/JsonSept/Calculator.git" target="_blank">
+                    <button>
+                    </button>
                     Github
                 </a><br>
-            </button>
-            <button>
-                <a href="https://melodic-tanuki-6eed1b.netlify.app" target="_blank">
-                        Netlify
+            <a href="https://melodic-tanuki-6eed1b.netlify.app" target="_blank">
+                    <button>
+                    </button>
+                    Netlify
                     </a>
-                </button>
         </div>
         </div>
         <div class="card">
@@ -45,16 +44,16 @@
                 <img src="https://i.postimg.cc/TYjQHSVp/Screenshot-2024-04-05-151117.png" style="width: 230px;">
                 <h3>Keyboard</h3>
                 <p>Made with HTML, CSS and JavaScript</p>
-                <button>
                 <a href="https://github.com/JsonSept/jsKeyboard.git" target="_blank">
+                    <button>
+                    </button>
                     Github
                 </a><br>
-            </button>
-            <button>
-                <a href="https://wonderful-blini-2d38a2.netlify.app" target="_blank">
-                        Netlify
+            <a href="https://wonderful-blini-2d38a2.netlify.app" target="_blank">
+                    <button>
+                    </button>
+                    Netlify
                     </a>
-                </button>
             </div>
         </div>
         <div class="card">
@@ -63,16 +62,16 @@
                 <img src="https://i.ibb.co/dG1Bn3K/Screenshot-2024-01-11-144202.png">
                 <h3>Coffee Shop</h3>
                 <p>Made HTML and CSS</p>
-                <button>
                 <a href="https://github.com/JsonSept/e-commerce-website.git" target="_blank">
+                    <button>
+                    </button>
                     Github
                 </a><br>
-            </button>
-            <button>
-                <a href="https://dynamic-liger-9dc540.netlify.app" target="_blank">
-                        Netlify
+            <a href="https://dynamic-liger-9dc540.netlify.app" target="_blank">
+                    <button>
+                    </button>
+                    Netlify
                     </a>
-                </button>
             </div>
         </div>
         <div class="card">
@@ -81,16 +80,16 @@
                 <img src="https://i.ibb.co/Y0VrQ5x/Screenshot-2024-01-11-144247.png">
                 <h3>My Ecommerse Website</h3>
                 <p>Made HTML, CSS and JavaScript</p>
-                <button>
                 <a href="https://github.com/JsonSept/newEcommerse.git" target="_blank">
+                    <button>
+                    </button>
                     Github
                 </a><br>
-            </button>
-            <button>
-                <a href="https://sparkling-figolla-37748c.netlify.app" target="_blank">
-                        Netlify
+            <a href="https://sparkling-figolla-37748c.netlify.app" target="_blank">
+                    <button>
+                    </button>
+                    Netlify
                     </a>
-                </button>
             </div>
         </div>
         <div class="card">
@@ -99,17 +98,17 @@
                 <img src="https://i.ibb.co/7tkTTwB/Screenshot-2024-01-11-150844.png">
                 <h3>RGB to Hex Calculator</h3>
                 <p>Made HTML, CSS and JavaScript</p>
-                <button>
                 <a href="https://github.com/JsonSept/hexToRGB.git" target="_blank">
+                    <button>
+                    </button>
                     Github
                 </a><br>
-            </button>
-            <button>
-                <a href="https://harmonious-crostata-a6bdc9.netlify.app" target="_blank">
-                        Netlify
-
+            <a href="https://harmonious-crostata-a6bdc9.netlify.app" target="_blank">
+                    <button>
+                        
+                    </button>
+                    Netlify
                     </a>
-                </button>
             </div>
          </div>
 
@@ -120,7 +119,7 @@
                 <h3>Chowabite</h3>
                 <p>Group Presentation</p>
                  
-                <a href="https://drive.google.com/file/d/1jGFPqlI0FkZb8b7uxTLMmrCP1U3hjz0C/view?usp=drive_link" target="_blank"><button>Open</button></a>
+                <a href="https://drive.google.com/file/d/1jGFPqlI0FkZb8b7uxTLMmrCP1U3hjz0C/view?usp=drive_link" target="_blank"><button></button>Open</a>
 
             </div>
         </div>
@@ -230,7 +229,8 @@ img {
 
 button {
     /* background-color: black; */
-    color:white;
+    color:black;
+    border:none;
 }
 
 </style>
