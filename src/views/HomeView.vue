@@ -8,8 +8,9 @@
           <h2 class="layer" data-speed="2">I'm Jason September</h2>
           <h3>I am an aspiring Fullstack Developer</h3>
        
-          <router-link to="/resume" target="_blank"><button>Download CV</button></router-link> 
+          <router-link to="" target="_blank"><a href="https://drive.google.com/file/d/1bOum91vxA6auVS2jIEBStKpyWXr2JG9t/view?usp=drive_link"><button>Download CV</button></a></router-link> 
       </section>
+      
     </div>
     <div id="light"></div>
     

@@ -38,7 +38,30 @@
 </div>
 </div>
 <hr>
-<h1>Skills</h1>
+
+<h1 class="center">Badges and Achievements</h1>
+<div class="badges">
+<div class="cards">
+    <div class="content">
+        <img src="https://i.ibb.co/dJCT260/SCRUM.png" alt="">
+        <h2>Scrum</h2>
+    </div>
+</div>
+<div class="cards">
+    <div class="content">
+        <img src="https://i.ibb.co/QJCcpBc/Screenshot-2024-05-20-122525.png" alt=""><br>
+        <a href="https://drive.google.com/file/d/16gdyEDOcGGaT9z1zXDDfVdW60N-4SYEa/view?usp=drive_link"><button>View</button></a>
+    </div>
+</div>
+
+<div class="cards">
+    <div class="content">
+        <img src="https://i.ibb.co/sjfs0Wb/python-essentials-1-1.png" alt="">
+        <h2>Python Essentials</h2>
+    </div>
+</div>
+</div>
+<h1 class="center">Skills</h1>
 <div class="skills">
 
 <div class="cards">
@@ -152,7 +175,7 @@ export default {
   
 }
 .timeline-block {
-  border: solid white 2px;
+  /* border: solid white 2px; */
   /* font-size: 10px; */
   width:40%;
   box-shadow: rgb(0, 0, 0) 2px 2px 40px;
@@ -192,6 +215,22 @@ img {
     color: antiquewhite;
     justify-content: space-around;
     
+}
+.badges {
+  display: flex;
+    justify-content: center;
+    padding: 2%;
+    color: antiquewhite;
+    justify-content: space-around;
+}
+button {
+  padding: 4%;
+  background:white;
+  color:black;
+  cursor: pointer;
+}
+.center {
+  text-align: center;
 }
 h2 {
   text-shadow: 2px 5px 10px black;

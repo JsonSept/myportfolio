@@ -118,9 +118,9 @@
                 <h2>07</h2>
                 <img src="https://i.ibb.co/9HxN7tJ/Screenshot-2024-05-03-144401.png">
                 <h3>Chowabite</h3>
-                <p>Presentation</p>
+                <p>Group Presentation</p>
                  
-                <button><object data="/src/assets/Chowabite.pdf" type="pdf">Open</object></button>
+                <a href="https://drive.google.com/file/d/1jGFPqlI0FkZb8b7uxTLMmrCP1U3hjz0C/view?usp=drive_link" target="_blank"><button>Open</button></a>
 
             </div>
         </div>
