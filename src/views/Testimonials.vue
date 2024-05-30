@@ -1,5 +1,5 @@
 <template>
-   <div class="all">
+   <div class="all1">
      <h1 class="pro">My References</h1>
         <div class="container">
         <div class="card">

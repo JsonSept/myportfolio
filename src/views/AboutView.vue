@@ -2,7 +2,7 @@
   <div class="content">
   <div class="about">
     <h1>About Me</h1><br>
-    <h2>My name is Jason September,from Eersteriver.I graduated from Forest Heights High School in the year 2016.I have had multiple part time jobs before I started at Life Choices academy where I underwent a fullstack development course for 6 months and graduated with a certificate and i am currently interning in Life Choices Studio Where I have get to work with my peers and colleagues and have the oppertunity to further my coding knowledge.</h2>
+    <h2>My name is Jason September,from Eersteriver.I graduated from Forest Heights High School in the year 2016.I have had multiple part time jobs before I started at Life Choices academy where I underwent a fullstack development course for 6 months and graduated with a certificate and i am currently interning in Life Choices Studio where I have the opportunity to engage with my colleagues and enhance my set of skills within the software development</h2>
   </div>
 <div class="info">
   <img id="pic" src="https://i.ibb.co/mFKL94f/download-image-1712314706030-removebg-preview.png" alt="">
@@ -24,6 +24,7 @@
   background-color: rgba(255, 255, 255, 0.2);
   outline: 0.3rem solid rgba(255, 255, 255, 0.3);
   box-shadow: #090606 2px 5px 70px;
+  padding: 2%;
 }
 h2 {
   color: #e2dede;
@@ -36,6 +37,7 @@ img {
   z-index: -3;
   border-radius: 10px;
   outline: 0.3rem solid rgba(255, 255, 255, 0.3);
+  
 }
  h1 {
   color:#05f6ee;

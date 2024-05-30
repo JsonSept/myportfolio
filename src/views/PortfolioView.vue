@@ -15,7 +15,6 @@
   </div>
 </div>
 <br>
-<hr>
 <div class="exp">
   <h1>Work Experiences</h1>
   <div class="cardsExp">
@@ -37,7 +36,6 @@
 </div>
 </div>
 </div>
-<hr>
 
 <h1 class="center">Badges and Achievements</h1>
 <div class="badges">
@@ -50,6 +48,7 @@
 <div class="cards">
     <div class="content">
         <img src="https://i.ibb.co/QJCcpBc/Screenshot-2024-05-20-122525.png" alt=""><br>
+        <h2>Linux Unhatched</h2><br>
         <a href="https://drive.google.com/file/d/16gdyEDOcGGaT9z1zXDDfVdW60N-4SYEa/view?usp=drive_link"><button>View</button></a>
     </div>
 </div>
@@ -106,21 +105,6 @@
         <h2>Node.JS</h2>
     </div>
 </div>
-
-  
-
-  <!-- <div class="carousel-container">
-    <div class="carousel">
-      <div class="card active">Card 1</div>
-      <div class="card">Card 2</div>
-      <div class="card">Card 3</div>
-      <div class="card">Card 4</div>
-      <div class="card">Card 5</div>
-    </div>
-    <button id="prevBtn">Previous</button>
-    <button id="nextBtn">Next</button>
-  </div> -->
-
   
 </div>
 </template>
@@ -133,50 +117,17 @@ export default {
 </script>
 <style scoped>
 
-  /* .card {
-    width: 100%;
-    padding: 20px;
-    background-color: #f0f0f0;
-    margin-right: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .active {
-    background-color: #ccc;
-  }
-  
-  button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-10%);
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    border-radius: 4px;
-    background-color: #007bff;
-    color: #fff;
-  }
-  
-  #prevBtn {
-    left: 10px;
-  }
-  
-  #nextBtn {
-    right: 10px;
-  } */
+ 
   .cards {
     text-align: center;
   }
 .container {
   padding: 7%;
-  margin-top: 40%;
+  margin-top: 68%;
   text-align: center;
   
 }
 .timeline-block {
-  /* border: solid white 2px; */
-  /* font-size: 10px; */
   width:40%;
   box-shadow: rgb(0, 0, 0) 2px 2px 40px;
   background-color: rgb(73, 74, 74);
@@ -185,6 +136,7 @@ export default {
   border-radius: 7px;
   display: grid;
   text-align: center;
+  padding: 2%;
 
 }
 p {
@@ -195,6 +147,9 @@ color: rgb(4, 103, 251);
 -webkit-text-stroke-width: 1px;
             -webkit-text-stroke-color: rgb(0, 0, 0);
   text-shadow: 2px 5px 10px black;
+}
+.exp {
+  padding: 3%;
 }
 .cardsExp {
   z-index: 1000;
@@ -210,29 +165,36 @@ img {
 }
 .skills {
     display: flex;
+    flex-wrap: nowrap;
     justify-content: center;
     padding: 2%;
     color: antiquewhite;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     
 }
 .badges {
   display: flex;
-    justify-content: center;
-    padding: 2%;
-    color: antiquewhite;
-    justify-content: space-around;
+  /* flex-wrap: nowrap; */
+  justify-content: center;
+  padding: 2%;
+  color: antiquewhite;
+  justify-content: space-around;
 }
 button {
-  padding: 4%;
-  background:white;
-  color:black;
+  padding: 5%;
+  background:rgb(13, 11, 11);
+  color:rgb(255, 245, 245);
   cursor: pointer;
+  border-radius: 6px;
+  box-shadow: ;
+
 }
 .center {
   text-align: center;
+  margin-top: 3%;
 }
 h2 {
   text-shadow: 2px 5px 10px black;
 }
+
 </style>

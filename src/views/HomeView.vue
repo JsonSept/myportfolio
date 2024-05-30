@@ -1,6 +1,4 @@
 <template>
-  <img src="" alt="">
-  
   
   <div id="particles-js">
 <section>
@@ -8,7 +6,7 @@
           <h2 class="layer" data-speed="2">I'm Jason September</h2>
           <h3>I am an aspiring Fullstack Developer</h3>
        
-          <a href="https://drive.google.com/file/d/1bOum91vxA6auVS2jIEBStKpyWXr2JG9t/view?usp=drive_link" target="_blank"><button>Download CV</button></a> 
+          <a href="https://drive.google.com/file/d/1rD-_Iq-6tkrvmozQMFQKaXz1Tn9_UeWP/view?usp=drive_link" target="_blank"><button>Download CV</button></a> 
       </section>
       
     </div>

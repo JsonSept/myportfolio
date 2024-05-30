@@ -145,7 +145,8 @@ export default {
 </script>
 <style>
 .all {
-    margin-top: 10%;
+    margin-top: 30%;
+
 }
 .pro {
     color: #fff;

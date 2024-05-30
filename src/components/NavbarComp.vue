@@ -47,20 +47,7 @@ export default {
         border-bottom: 2px solid rgba(255, 255, 255, .2);
     }
 
-    /* .header::before {
-        content: '';
-        position: absolute;
-        top:0;
-        left:-100%;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(90deg, transparent, rgba(255,255,255, .4), transparent);
-    transition: .5s;
-    } */
-
-    /* .header:hover::before {
-        left: 100%;
-    } */
+    
 
     .logo {
         color: #fff;
