@@ -186,8 +186,8 @@ button {
   color:rgb(255, 245, 245);
   cursor: pointer;
   border-radius: 6px;
-  box-shadow: ;
 
+  
 }
 .center {
   text-align: center;
