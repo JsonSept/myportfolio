@@ -1,112 +1,126 @@
 <template>
-<div class="container">
+  <div class="container">
     <div class="education">
-  <h1>Education</h1>
-  <div class="cardsExp">
-    <div class="timeline-block">
-      <h1>Life Choices Coding Academy</h1>
-      <p>Web Development, UI/UX & Software Engineering</p>
-      <p>2023 - Present</p><br>
+      <h1>Education</h1>
+      <div class="cardsExp">
+        <div class="timeline-block">
+          <h1>Life Choices Coding Academy</h1>
+          <p>Web Development, UI/UX & Software Engineering</p>
+          <p>2023 - Present</p><br>
 
-      <h1>Forest Heights High School</h1>
-      <p>Matric</p>
-      <p>2012 - 2016</p>
+          <h1>Forest Heights High School</h1>
+          <p>Matric</p>
+          <p>2012 - 2016</p>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="exp">
+      <h1>Work Experiences</h1>
+      <div class="cardsExp">
+        <div class="timeline-block">
+          <h1>Life Choices Studio Intern</h1>
+          <p>During my time as an intern in LCS as a web Developer I got the chance to work in a team and I obtained
+            soft skills like team work,and comminication skills which enabled me to be more resilient, and utilized my
+            time managment effectively.</p>
+          <p>2024 - Present</p><br>
+          <!-- <router-link to="/projects"><button>Go to my projects</button></router-link> -->
+          <h1>Place: Flint Group</h1>
+          <h2>Title:Colour Matcher</h2>
+          <p>Matching and mixing paste ink colours accurately according to a prototype design provided from a customer
+            and or printing company.</p>
+          <p>2020 - 2023</p><br>
+
+          <h1>Place: Meatrite</h1>
+          <h2>Title:Cashier</h2>
+          <p>Worked as cashier and all arounder</p>
+          <p>2018 - 2019</p>
+        </div><br>
+      </div>
     </div>
   </div>
-</div>
-<br>
-<div class="exp">
-  <h1>Work Experiences</h1>
-  <div class="cardsExp">
-    <div class="timeline-block">
-      <h1>Life Choices Studio Intern</h1>
-      <p>During my time as an intern in LCS as a web Developer I got the chance to work in a team and I obtained soft skills like team work,and comminication skills which enabled me to be more resilient, and utilized my time managment effectively.</p>
-      <p>2024 - Present</p><br>
-      <!-- <router-link to="/projects"><button>Go to my projects</button></router-link> -->
-      <h1>Place: Flint Group</h1>
-      <h2>Title:Colour Matcher</h2>
-      <p>Matching and mixing paste ink colours accurately according to a prototype design provided from a customer and or printing company.</p>
-      <p>2020 - 2023</p><br>
-    
-      <h1>Place: Meatrite</h1>
-        <h2>Title:Cashier</h2>
-        <p>Worked as cashier and all arounder</p>
-        <p>2018 - 2019</p>
-    </div><br>
-</div>
-</div>
-</div>
 
-<h1 class="center">Badges and Achievements</h1>
-<div class="badges">
-<div class="cards">
-    <div class="content">
+  <h1 class="center">Badges and Achievements</h1>
+  <div class="badges">
+    <div class="cards">
+      <div class="content">
         <img src="https://i.ibb.co/dJCT260/SCRUM.png" alt="">
         <h2>Scrum</h2>
+      </div>
     </div>
-</div>
-<div class="cards">
-    <div class="content">
-        <img src="https://i.ibb.co/QJCcpBc/Screenshot-2024-05-20-122525.png" alt=""><br>
+    <div class="cards">
+      <div class="content">
+        <img src="https://i.ibb.co/qRk7F2p/Screenshot-2024-06-12-100447.png" alt=""><br>
         <h2>Linux Unhatched</h2><br>
-        <a href="https://drive.google.com/file/d/16gdyEDOcGGaT9z1zXDDfVdW60N-4SYEa/view?usp=drive_link"><button>View</button></a>
+        <a
+          href="https://drive.google.com/file/d/16gdyEDOcGGaT9z1zXDDfVdW60N-4SYEa/view?usp=drive_link"><button>View</button></a>
+      </div>
     </div>
-</div>
 
-<div class="cards">
-    <div class="content">
+    <div class="cards">
+      <div class="content">
+        <img src="https://i.ibb.co/0FGFXhm/Screenshot-2024-06-12-100211.png" alt=""><br>
+        <h2>Programming Essentials in C++</h2><br>
+        <a
+          href="https://drive.google.com/file/d/1LCx-3cTNNQnplhXTJv3yiELG_hEjozIa/view?usp=drive_link"><button>View</button></a>
+      </div>
+    </div>
+
+    <div class="cards">
+      <div class="content">
         <img src="https://i.ibb.co/sjfs0Wb/python-essentials-1-1.png" alt="">
         <h2>Python Essentials</h2>
+      </div>
     </div>
-</div>
-</div>
-<h1 class="center">Skills</h1>
-<div class="skills">
+  </div>
+  <h1 class="center">Skills</h1>
+  <div class="skills">
 
-<div class="cards">
-    <div class="content">
+    <div class="cards">
+      <div class="content">
         <img src="https://i.ibb.co/CQvDTGJ/html5-icon-13.png" alt="">
         <h2>HTML</h2>
-    </div>
-</div><br>
-<div class="cards">
-    <div class="content">
+      </div>
+    </div><br>
+    <div class="cards">
+      <div class="content">
         <img src="https://i.ibb.co/sbzPW35/csslogo.png" style="height:87px; margin-top:8px" alt="">
         <h2>CSS</h2>
-    </div>
-</div><br>
-<div class="cards">
-    <div class="content">
+      </div>
+    </div><br>
+    <div class="cards">
+      <div class="content">
         <img src="https://i.ibb.co/7yGrkRJ/bootstrap-logo.png" alt="">
-        <h2>Bootstrap</h2>
-    </div>
-</div><br>
-<div class="cards">
-    <div class="content">
+        <h2 class="space">Bootstrap</h2>
+      </div>
+    </div><br>
+    <div class="cards">
+      <div class="content">
         <img src="https://i.ibb.co/vHm0Lm3/R.png" alt="">
         <h2>Javascript</h2>
-    </div>
-</div><br>
-<div class="cards">
-    <div class="content">
-        <img src="https://i.ibb.co/9TWz1qp/vuejs-logo-17-D586-B587-seeklogo-com.png" style="height:85px; margin-top:9px" alt="">
+      </div>
+    </div><br>
+    <div class="cards">
+      <div class="content">
+        <img src="https://i.ibb.co/9TWz1qp/vuejs-logo-17-D586-B587-seeklogo-com.png" style="height:85px; margin-top:9px"
+          alt="">
         <h2>Vue.JS</h2>
-    </div>
-</div><br>
-<div class="cards">
-    <div class="content">
+      </div>
+    </div><br>
+    <div class="cards">
+      <div class="content">
         <img src="https://i.ibb.co/87Dr9nz/mysql-logo-png-transparent-768x532.png" alt="">
         <h2>MySQL</h2>
-    </div>
-</div><br>
-<div class="cards">
-    <div class="content">
+      </div>
+    </div><br>
+    <div class="cards">
+      <div class="content">
         <img src="https://i.postimg.cc/N0t6dxj7/nodejs.png" alt="">
         <h2>Node.JS</h2>
+      </div>
     </div>
-</div>
-  
-</div>
+
+  </div>
 </template>
 <script scoped>
 
@@ -166,8 +180,8 @@ img {
 .skills {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: center;
-    padding: 2%;
+    justify-content:space-around;
+    padding: 3%;
     color: antiquewhite;
     /* justify-content: space-around; */
     
@@ -181,7 +195,8 @@ img {
   justify-content: space-around;
 }
 button {
-  padding: 5%;
+  padding: 2%;
+  padding-right: 2%;
   background:rgb(13, 11, 11);
   color:rgb(255, 245, 245);
   cursor: pointer;
@@ -196,5 +211,7 @@ button {
 h2 {
   text-shadow: 2px 5px 10px black;
 }
-
+.space {
+  margin-right: 2%;
+}
 </style>
