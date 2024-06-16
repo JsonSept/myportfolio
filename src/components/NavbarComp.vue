@@ -70,21 +70,29 @@ export default {
         text-decoration:underline;
         
     }
-    @media screen and (max-width: 300px) {
+    @media screen and (max-width: 390px) {
   nav {
-    height : 20px;
+    height : 30px;
+    padding: 0;
+    padding-right:0;
+    padding-top: 3%;
+    /* margin */
   }
   .logo {
-    left:5%;
-    font-size: 13px;
-    text-align: left;
     
+    font-size: 12px;
+    text-align: left;
+    margin-left: 1%;
   }
   nav .a {
+    
     font-size: 8px;
-    display: flex;
-    justify-content: center;
   }
-  
+  .header {
+    
+    padding: 15px;
+    font-size: 5px;
+   
+  }
 }
 </style>

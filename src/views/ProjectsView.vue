@@ -5,7 +5,7 @@
         <div class="card">
             <div class="content">
                 <h2>01</h2>
-                <img src="https://i.postimg.cc/MpG4jZww/Screenshot-2024-04-05-150844.png">
+                <img class="img0" src="https://i.postimg.cc/MpG4jZww/Screenshot-2024-04-05-150844.png">
                 <h3>Sneaker Shop</h3>
                 <p>A sneaker shop website made with HTML and CSS</p>
                 <a href="https://github.com/JsonSept/week1.git" target="_blank">
@@ -23,7 +23,7 @@
         <div class="card">
             <div class="content">
                 <h2>02</h2>
-                <img src="https://i.ibb.co/TYdVNs3/Screenshot-2024-01-11-144312.png">
+                <img class="img0" src="https://i.ibb.co/TYdVNs3/Screenshot-2024-01-11-144312.png">
                 <h3>Calculator</h3>
                 <p>Made with HTML, CSS and JavaScript</p>
                 <a href="https://github.com/JsonSept/Calculator.git" target="_blank">
@@ -41,7 +41,7 @@
         <div class="card">
             <div class="content">
                 <h2>03</h2>
-                <img src="https://i.postimg.cc/TYjQHSVp/Screenshot-2024-04-05-151117.png" style="width: 230px;">
+                <img class="img0" src="https://i.postimg.cc/TYjQHSVp/Screenshot-2024-04-05-151117.png" style="width: 230px;">
                 <h3>Keyboard</h3>
                 <p>Made with HTML, CSS and JavaScript</p>
                 <a href="https://github.com/JsonSept/jsKeyboard.git" target="_blank">
@@ -59,7 +59,7 @@
         <div class="card">
             <div class="content">
                 <h2>04</h2>
-                <img src="https://i.ibb.co/dG1Bn3K/Screenshot-2024-01-11-144202.png">
+                <img class="img0" src="https://i.ibb.co/dG1Bn3K/Screenshot-2024-01-11-144202.png">
                 <h3>Coffee Shop</h3>
                 <p>Made HTML and CSS</p>
                 <a href="https://github.com/JsonSept/e-commerce-website.git" target="_blank">
@@ -77,7 +77,7 @@
         <div class="card">
             <div class="content">
                 <h2>05</h2>
-                <img src="https://i.ibb.co/Y0VrQ5x/Screenshot-2024-01-11-144247.png">
+                <img class="img0" src="https://i.ibb.co/Y0VrQ5x/Screenshot-2024-01-11-144247.png">
                 <h3>My Ecommerse Website</h3>
                 <p>Made HTML, CSS and JavaScript</p>
                 <a href="https://github.com/JsonSept/newEcommerse.git" target="_blank">
@@ -95,7 +95,7 @@
         <div class="card">
             <div class="content">
                 <h2>06</h2>
-                <img src="https://i.ibb.co/7tkTTwB/Screenshot-2024-01-11-150844.png">
+                <img class="img0" src="https://i.ibb.co/7tkTTwB/Screenshot-2024-01-11-150844.png">
                 <h3>RGB to Hex Calculator</h3>
                 <p>Made HTML, CSS and JavaScript</p>
                 <a href="https://github.com/JsonSept/hexToRGB.git" target="_blank">
@@ -115,7 +115,7 @@
          <div class="card">
             <div class="content">
                 <h2>07</h2>
-                <img src="https://i.ibb.co/9HxN7tJ/Screenshot-2024-05-03-144401.png">
+                <img class="img0" src="https://i.ibb.co/9HxN7tJ/Screenshot-2024-05-03-144401.png">
                 <h3>Chowabite</h3>
                 <p>Group Presentation</p>
                  
@@ -127,25 +127,17 @@
     </div>
     </div>
 </template>
-
-<!-- <script type="text/javascript" src="vanilla-tilt.js"></script> -->
 <script>
-  import VanillaTilt from 'vanilla-tilt'
+  
  
 export default {
     mounted() {
-    VanillaTilt.init(document.querySelectorAll(".card"),{
-            max:25,
-            speed:400,
-            glare: true,
-            "max-glare": 1,
-        });
   }
 }
 </script>
 <style>
 .all {
-    margin-top: 30%;
+    margin-top: 38%;
 
 }
 .pro {
@@ -153,7 +145,7 @@ export default {
     padding-top: 50%;
     text-shadow: 10px 5px 10px black;
 }
-img {
+.img0 {
     height: 150px;
     width:180;
 }
@@ -233,5 +225,13 @@ button {
     color:black;
     border:none;
 }
-
+@media screen and (max-width: 390px) {
+  .container {
+    height : 5%;
+    margin-bottom: -151rem;
+  }
+  .pro {
+    padding-left: 2%;
+  }
+}
 </style>

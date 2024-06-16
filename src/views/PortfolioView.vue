@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container1">
     <div class="education">
       <h1>Education</h1>
       <div class="cardsExp">
@@ -130,14 +130,23 @@ export default {
 }
 </script>
 <style scoped>
-
+body {
+  background: fixed;
+}
  
   .cards {
     text-align: center;
+    text-shadow: 2px 5px 5px 10px black;
+    box-shadow: black 2px 2px 10px 2px;
+    padding: 2%;
+    backdrop-filter: blur(5px);
+    border-radius: 7px;
+    background: rgba(255, 255, 255, 0.1);
+    /* background: white; */
   }
-.container {
+.container1 {
   padding: 7%;
-  margin-top: 68%;
+  margin-top: 70rem;
   text-align: center;
   
 }
@@ -159,7 +168,7 @@ p {
 h1 {
 color: rgb(4, 103, 251);
 -webkit-text-stroke-width: 1px;
-            -webkit-text-stroke-color: rgb(0, 0, 0);
+  -webkit-text-stroke-color: rgb(0, 0, 0);
   text-shadow: 2px 5px 10px black;
 }
 .exp {
@@ -213,5 +222,42 @@ h2 {
 }
 .space {
   margin-right: 2%;
+}
+
+@media screen and (max-width: 390px){
+    .container1 {
+        padding-top: 100rem;
+        text-align: center;
+    }
+    .exp {
+        margin-left: -8%;
+      
+    }
+  .cardsExp {
+    
+    /* height: 30rem; */
+    width: 400px;
+  }
+    .badges {
+        display: grid; 
+        
+    }
+
+    .cards {
+         /* padding-top: 20px; */
+         border-radius: 5px;
+         box-shadow: black 2px 2px 10px 2px;
+    }
+    .skills {
+        display: grid;
+       
+    }
+    h1 {
+        font-size: 30px;
+    }
+  .timeline-block {
+    width: 20rem;
+    
+  }
 }
 </style>

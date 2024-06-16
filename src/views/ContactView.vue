@@ -44,7 +44,7 @@
   <button class="send" type="submit">Send</button>
 </form>
 </div>
-<div id="light"></div>
+
 </div>
 </template>
 <script>
@@ -118,14 +118,31 @@ background-color: rgba(255, 255, 255, 0.3);
     input {
         height : 40px;
     }
-    #light {
-    width: 100px;
-    height: 100px;
-    background-color: yellow;
-    border-radius: 50px;
-    /* margin-bottom: 10%; */
-    z-index: -100;
-    -webkit-text-stroke-width: 1px;
-   box-shadow: 3px 0 6px 5px #090606;
-}
+
+@media screen and (max-width: 390px) {
+        
+         .block1 {
+            font-size: 10px;
+            height: 20rem;
+         }
+         .block2 {
+            padding-top: 6%;
+            font-size: 15px;
+            height: 20rem;
+            padding-bottom: 2%;
+         }
+        input {
+            width: 150px;
+            height: 20px;
+        }
+        textarea {
+        width: 150px;
+        height: 40px;
+        }
+        .grid-container {
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
 </style>

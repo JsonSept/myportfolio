@@ -10,7 +10,6 @@
       </section>
       
     </div>
-    <div id="light"></div>
     
 </template>
 
@@ -24,6 +23,7 @@ export default {
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 button {
+    background-color: aliceblue;
   border-radius: 6px;
   border: none;
   box-shadow: rgb(0, 0, 0) 6px 5px 30px;
@@ -86,12 +86,7 @@ section h2 {
 h3 {
     color: #2196f3;
 }
-#light {
-    width: 100px;
-    height: 100px;
-    background-color: yellow;
-    border-radius: 50px;
-    -webkit-text-stroke-width: 1px;
-   box-shadow: 3px 0 7px #090606;
+@media screen and ( max-width:300px) {
+    
 }
 </style>

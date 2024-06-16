@@ -48,9 +48,9 @@ body {
     display:flex ;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background: #161623;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* min-height: 100vh; */
+    background:fixed #161623;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
 }
 
 
@@ -99,17 +99,9 @@ nav a.router-link-exact-active {
 nav a.router-link-exact-active:hover {
   transform: scale(0.2); 
 }
-#light {
-    width: 100px;
-    height: 100px;
-    background-color: yellow;
-    border-radius: 10px; /* Makes it a circle */
-    position: fixed;
-}
 </style>
 <script>
-import './assets/particles.js'
-// import './assets/app.js'
+
 import NavbarComp from './components/NavbarComp.vue'
 // import VanillaTilt from 'vanilla-tilt'
 export default {
