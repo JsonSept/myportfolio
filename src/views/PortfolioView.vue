@@ -146,7 +146,7 @@ body {
   }
 .container1 {
   padding: 7%;
-  margin-top: 70rem;
+  margin-top: 75rem;
   text-align: center;
   
 }
