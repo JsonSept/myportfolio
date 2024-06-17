@@ -80,7 +80,7 @@ export default {
   }
   .logo {
     
-    font-size: 12px;
+    font-size: 10px;
     text-align: left;
     margin-left: 1%;
   }

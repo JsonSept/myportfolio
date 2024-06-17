@@ -226,11 +226,11 @@ h2 {
 
 @media screen and (max-width: 390px){
     .container1 {
-        padding-top: 100rem;
-        text-align: center;
+        padding-top: 70rem;
+        /* text-align: center; */
     }
     .exp {
-        margin-left: -8%;
+        margin-left: -10%;
       
     }
   .cardsExp {
@@ -257,7 +257,9 @@ h2 {
     }
   .timeline-block {
     width: 20rem;
-    
+  }
+  .education {
+    margin-left: -1.5rem;
   }
 }
 </style>
