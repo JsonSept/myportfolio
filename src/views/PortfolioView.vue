@@ -45,26 +45,10 @@
     <div class="cards">
       <div class="content">
         <img src="https://i.ibb.co/dJCT260/SCRUM.png" alt="">
-        <h2>Scrum</h2>
-      </div>
-    </div>
-    <div class="cards">
-      <div class="content">
-        <img src="https://i.ibb.co/qRk7F2p/Screenshot-2024-06-12-100447.png" alt=""><br>
-        <h2>Linux Unhatched</h2><br>
-        <a
-          href="https://drive.google.com/file/d/16gdyEDOcGGaT9z1zXDDfVdW60N-4SYEa/view?usp=drive_link"><button>View</button></a>
+        <h2>LC Studio Scrum</h2>
       </div>
     </div>
 
-    <div class="cards">
-      <div class="content">
-        <img src="https://i.ibb.co/0FGFXhm/Screenshot-2024-06-12-100211.png" alt=""><br>
-        <h2>Programming Essentials in C++</h2><br>
-        <a
-          href="https://drive.google.com/file/d/1LCx-3cTNNQnplhXTJv3yiELG_hEjozIa/view?usp=drive_link"><button>View</button></a>
-      </div>
-    </div>
 
     <div class="cards">
       <div class="content">
@@ -72,7 +56,42 @@
         <h2>Python Essentials</h2>
       </div>
     </div>
+    <div class="cards">
+      <div class="content">
+        <img src="https://i.ibb.co/QH6VvMT/operating-systems-basics.png" alt="">
+        <h2>Operating System<br>Basics</h2>
+      </div>
+    </div>
+    <div class="cards">
+      <div class="content">
+        <img src="https://i.ibb.co/P53WWtt/introduction-to-data-science.png" alt="">
+        <h2>Introduction to Data<br>Science</h2>
+      </div>
+    </div>
+
+
   </div>
+  <div class="AC">
+    <div class="cards">
+      <div class="content">
+        <img src="https://i.ibb.co/qRk7F2p/Screenshot-2024-06-12-100447.png" alt=""><br>
+        <br><h2>Linux<br>Unhatched</h2><br><br>
+
+      </div>
+      <a
+        href="https://drive.google.com/file/d/16gdyEDOcGGaT9z1zXDDfVdW60N-4SYEa/view?usp=drive_link"><button>View</button></a>
+    </div>
+    <div class="cards">
+      <div class="content">
+        <img src="https://i.ibb.co/0FGFXhm/Screenshot-2024-06-12-100211.png" alt=""><br>
+        <h2>Programming<br>Essentials<br>in C++</h2><br>
+
+      </div>
+      <a
+        href="https://drive.google.com/file/d/1LCx-3cTNNQnplhXTJv3yiELG_hEjozIa/view?usp=drive_link"><button>View</button></a>
+    </div>
+  </div>
+
   <h1 class="center">Skills</h1>
   <div class="skills">
 
@@ -144,6 +163,7 @@ body {
     background: rgba(255, 255, 255, 0.1);
     /* background: white; */
   }
+  
 .container1 {
   padding: 7%;
   margin-top: 75rem;
@@ -197,11 +217,18 @@ img {
 }
 .badges {
   display: flex;
-  /* flex-wrap: nowrap; */
+  flex-wrap: nowrap;
   justify-content: center;
   padding: 2%;
   color: antiquewhite;
   justify-content: space-around;
+}
+.AC {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  color: antiquewhite;
+justify-content: space-evenly;
 }
 button {
   padding: 2%;
@@ -239,8 +266,7 @@ h2 {
     width: 400px;
   }
     .badges {
-        display: grid; 
-        
+        display: grid;
     }
 
     .cards {
