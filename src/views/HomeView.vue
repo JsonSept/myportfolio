@@ -1,16 +1,17 @@
 <template>
-  
-  <div id="particles-js">
-<section>
-        
-          <h2 class="layer" data-speed="2">I'm Jason September</h2>
-          <h3>I am an aspiring Fullstack Developer</h3>
-       
-          <a href="https://drive.google.com/file/d/1rD-_Iq-6tkrvmozQMFQKaXz1Tn9_UeWP/view?usp=drive_link" target="_blank"><button>Download CV</button></a> 
-      </section>
-      
+
+    <div id="particles-js">
+        <section>
+
+            <h2 class="layer" data-speed="2">I'm Jason September</h2>
+            <h3>I am an aspiring Fullstack Developer</h3>
+
+            <a href="https://drive.google.com/file/d/1rfYog76YPNSC6oR-_HcN47BJHpvTxo5w/view?usp=drive_link"
+                target="_blank"><button>Download CV</button></a>
+        </section>
+
     </div>
-    
+
 </template>
 
 <script>
@@ -31,7 +32,6 @@ button {
   padding: 4px;
   font-size:30px;
   cursor:pointer;
-  /* border-right: rgb(0, 0, 0) 7px; */
 }
 
 button:hover {
