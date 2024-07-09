@@ -144,18 +144,18 @@
         <h2>Node.JS</h2>
       </div>
     </div>
-    <div class="cards">
+    <!-- <div class="cards">
       <div class="content">
         <img src="https://i.ibb.co/Q6NQ0BB/python-logo.png" alt="">
         <h2>Python</h2>
       </div>
     </div>
-    <div class=" cards">
+    <div class="cards">
       <div class="content">
-        <img src="https://i.ibb.co/L6xTp3Y/cpp.webp" style="padding" alt="">
+        <img src="https://i.ibb.co/L6xTp3Y/cpp.webp" alt="">
         <h2>C++</h2>
       </div>
-    </div>
+    </div> -->
 
   </div>
 </template>
@@ -225,12 +225,10 @@ img {
     height : 100px;
 }
 .skills {
-    /* display: grid; */
-    /* column-gap: 5px; */
-    /* grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto; */
+   
      display: flex;
      flex-wrap:wrap;
+     justify-content: center;
      justify-content:space-around;
     padding: 5%;
     /* margin-bottom: 10px; */
