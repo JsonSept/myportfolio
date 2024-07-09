@@ -58,7 +58,7 @@
     </div>
     <div class="cards">
       <div class="content">
-        <img src="https://i.ibb.co/QH6VvMT/operating-systems-basics.png" alt="">
+        <img src="https://i.ibb.co/kmfQYpx/operating-systems-basics-1.png" alt="">
         <h2>Operating System<br>Basics</h2>
       </div>
     </div>
@@ -68,14 +68,20 @@
         <h2>Introduction to Data<br>Science</h2>
       </div>
     </div>
-
+    <div class="cards">
+      <div class="content">
+        <img src="https://i.ibb.co/ZL1wLXb/junior-cybersecurity-analyst-career-path-1.png" alt="">
+        <h2>Junior Cyber<br>Security Analysts</h2>
+      </div>
+    </div>
 
   </div>
   <div class="AC">
     <div class="cards">
       <div class="content">
         <img src="https://i.ibb.co/qRk7F2p/Screenshot-2024-06-12-100447.png" alt=""><br>
-        <br><h2>Linux<br>Unhatched</h2><br><br>
+        <br>
+        <h2>Linux<br>Unhatched</h2><br><br>
 
       </div>
       <a
@@ -136,6 +142,18 @@
       <div class="content">
         <img src="https://i.postimg.cc/N0t6dxj7/nodejs.png" alt="">
         <h2>Node.JS</h2>
+      </div>
+    </div>
+    <div class="cards">
+      <div class="content">
+        <img src="https://i.ibb.co/Q6NQ0BB/python-logo.png" alt="">
+        <h2>Python</h2>
+      </div>
+    </div>
+    <div class=" cards">
+      <div class="content">
+        <img src="https://i.ibb.co/L6xTp3Y/cpp.webp" style="padding" alt="">
+        <h2>C++</h2>
       </div>
     </div>
 
@@ -207,12 +225,16 @@ img {
     height : 100px;
 }
 .skills {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content:space-around;
-    padding: 3%;
+    /* display: grid; */
+    /* column-gap: 5px; */
+    /* grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto; */
+     display: flex;
+     flex-wrap:wrap;
+     justify-content:space-around;
+    padding: 5%;
+    /* margin-bottom: 10px; */
     color: antiquewhite;
-    /* justify-content: space-around; */
     
 }
 .badges {
