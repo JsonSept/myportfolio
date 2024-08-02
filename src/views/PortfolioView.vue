@@ -44,7 +44,7 @@
   <div class="badges">
     <div class="cards">
       <div class="content">
-        <img src="https://i.ibb.co/dJCT260/SCRUM.png" alt="">
+        <img src="https://i.ibb.co/2d1mTFp/SCRUM.png" alt="">
         <h2>LC Studio Scrum</h2>
       </div>
     </div>
@@ -52,34 +52,40 @@
 
     <div class="cards">
       <div class="content">
-        <img src="https://i.ibb.co/sjfs0Wb/python-essentials-1-1.png" alt="">
+        <img src="https://i.ibb.co/DMR1mRN/python-essentials-1-1.png" alt="">
         <h2>Python Essentials</h2>
       </div>
     </div>
     <div class="cards">
       <div class="content">
-        <img src="https://i.ibb.co/kmfQYpx/operating-systems-basics-1.png" alt="">
+        <img src="https://i.ibb.co/C90757Y/operating-systems-basics.png" alt="">
         <h2>Operating System<br>Basics</h2>
       </div>
     </div>
     <div class="cards">
       <div class="content">
-        <img src="https://i.ibb.co/P53WWtt/introduction-to-data-science.png" alt="">
+        <img src="https://i.ibb.co/9WnTJ6T/introduction-to-data-science.png" alt="">
         <h2>Introduction to Data<br>Science</h2>
       </div>
     </div>
     <div class="cards">
       <div class="content">
-        <img src="https://i.ibb.co/ZL1wLXb/junior-cybersecurity-analyst-career-path-1.png" alt="">
+        <img src="https://i.ibb.co/bJ0P6Dh/junior-cybersecurity-analyst-career-path-1.png" alt="">
         <h2>Junior Cyber<br>Security Analysts</h2>
       </div>
     </div>
 
+    <div class="cards">
+      <div class="content">
+        <img src="https://i.ibb.co/qg4K0b3/LCS-SOFTWARE-ENGINEERING.png" alt="">
+        <h2>LCS Software<br>Engineering</h2>
+      </div>
+    </div>
   </div>
   <div class="AC">
     <div class="cards">
       <div class="content">
-        <img src="https://i.ibb.co/qRk7F2p/Screenshot-2024-06-12-100447.png" alt=""><br>
+        <img src="https://i.ibb.co/wh1BKKV/Screenshot-2024-08-02-095010.png" alt=""><br>
         <br>
         <h2>Linux<br>Unhatched</h2><br><br>
 
@@ -96,45 +102,54 @@
       <a
         href="https://drive.google.com/file/d/1LCx-3cTNNQnplhXTJv3yiELG_hEjozIa/view?usp=drive_link"><button>View</button></a>
     </div>
+    <div class="cards">
+      <div class="content">
+        <img src="https://i.ibb.co/xMqTPtr/Screenshot-2024-08-02-095814.png" alt=""><br>
+        <h2>Ethical<br>Hacker</h2><br>
+
+      </div>
+      <a
+        href="https://drive.google.com/file/d/1zcq6OGAjh9Bpnbj7wKSMnCX8oSJPXvCS/view?usp=drive_link"><button>View</button></a>
+    </div>
   </div>
 
   <h1 class="center">Skills</h1>
   <div class="skills">
 
-    <div class="cards">
+   <div class="cards">
       <div class="content">
-        <img src="https://i.ibb.co/CQvDTGJ/html5-icon-13.png" alt="">
+        <img src="https://i.ibb.co/0FpxjSZ/html5-icon-13.png" alt="">
         <h2>HTML</h2>
       </div>
     </div><br>
     <div class="cards">
       <div class="content">
-        <img src="https://i.ibb.co/sbzPW35/csslogo.png" style="height:87px; margin-top:8px" alt="">
+        <img src="https://i.ibb.co/b6xxyJc/csslogo.png" style="height:87px; margin-top:8px" alt="">
         <h2>CSS</h2>
       </div>
     </div><br>
     <div class="cards">
       <div class="content">
-        <img src="https://i.ibb.co/7yGrkRJ/bootstrap-logo.png" alt="">
+        <img src="https://i.ibb.co/jZbZGjk/bootstrap-logo.png" alt="">
         <h2 class="space">Bootstrap</h2>
       </div>
     </div><br>
     <div class="cards">
       <div class="content">
-        <img src="https://i.ibb.co/vHm0Lm3/R.png" alt="">
+        <img src="https://i.ibb.co/Wg5kfK9/R.png" alt="">
         <h2>Javascript</h2>
       </div>
     </div><br>
     <div class="cards">
       <div class="content">
-        <img src="https://i.ibb.co/9TWz1qp/vuejs-logo-17-D586-B587-seeklogo-com.png" style="height:85px; margin-top:9px"
+        <img src="https://i.ibb.co/TBJBprm/vuejs-logo-17-D586-B587-seeklogo-com.png" style="height:85px; margin-top:9px"
           alt="">
         <h2>Vue.JS</h2>
       </div>
     </div><br>
     <div class="cards">
       <div class="content">
-        <img src="https://i.ibb.co/87Dr9nz/mysql-logo-png-transparent-768x532.png" alt="">
+        <img src="https://i.ibb.co/r2DX8Mj/mysql-logo-png-transparent-768x532.png" alt="">
         <h2>MySQL</h2>
       </div>
     </div><br>
@@ -144,9 +159,9 @@
         <h2>Node.JS</h2>
       </div>
     </div>
-    <!-- <div class="cards">
+    <div class="cards">
       <div class="content">
-        <img src="https://i.ibb.co/Q6NQ0BB/python-logo.png" alt="">
+        <img src="https://i.ibb.co/drJbbnT/python-logo.png" alt="">
         <h2>Python</h2>
       </div>
     </div>
