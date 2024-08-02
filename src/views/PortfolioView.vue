@@ -116,7 +116,7 @@
   <h1 class="center">Skills</h1>
   <div class="skills">
 
-   <div class="cards">
+    <div class="cards">
       <div class="content">
         <img src="https://i.ibb.co/0FpxjSZ/html5-icon-13.png" alt="">
         <h2>HTML</h2>
@@ -167,10 +167,10 @@
     </div>
     <div class="cards">
       <div class="content">
-        <img src="https://i.ibb.co/L6xTp3Y/cpp.webp" alt="">
+        <img src="https://i.ibb.co/h9gFF2g/cpp.webp" alt="">
         <h2>C++</h2>
       </div>
-    </div> -->
+    </div>
 
   </div>
 </template>
@@ -199,7 +199,7 @@ body {
   
 .container1 {
   padding: 7%;
-  margin-top: 100rem;
+  margin-top: 110rem;
   text-align: center;
   
 }

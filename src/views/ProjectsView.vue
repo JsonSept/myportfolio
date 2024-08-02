@@ -68,7 +68,7 @@ export default {
 </script>
 <style>
 .all {
-    margin-top: 38%;
+    margin-top: -38%;
 
 }
 .pro {

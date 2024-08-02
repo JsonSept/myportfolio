@@ -84,7 +84,7 @@ export default {
 .block1 , .block2 {
     z-index:1;
 
-    margin-top: 15%;
+    margin-top: 21%;
     height: 90%;
     padding:20px;
     display: flex;
@@ -100,6 +100,7 @@ display: grid;
 backdrop-filter: blur(14px); 
 background-color: rgba(255, 255, 255, 0.3); 
 /* display: flex; */
+margin-right: 8%;
 }
     .block2 {
         color:white;
